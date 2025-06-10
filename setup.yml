@@ -1,0 +1,7 @@
+ - name: basiccc
+   hosts: local
+   become: true
+   tasks:
+    - name: Exx
+      debug:
+       msg: "lessffgoo"
